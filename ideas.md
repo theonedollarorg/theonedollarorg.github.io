@@ -1,0 +1,1 @@
+image idea : 10% of coffee cup, 5% of cake, half a cookie, 1 packet of chips
