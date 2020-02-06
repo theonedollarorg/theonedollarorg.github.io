@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html>
 <title>The One Dollar Org</title>
@@ -9,14 +10,20 @@
 body {font-family: "Times New Roman", Georgia, Serif;}
 h1, h2, h3, h4, h5, h6 {
   font-family: "Playfair Display";
-  letter-spacing: 5px;
+  letter-spacing: 1pt;
+}
+img {
+  width: 100%;
+}
+#navbar {
+  font-family: "Times New Roman", Georgia, Serif;
 }
 </style>
 <body>
 
 <!-- Navbar (sit on top) -->
-<div class="w3-top">
-  <div class="w3-bar w3-white w3-padding w3-card" style="letter-spacing:4px;">
+<div class="w3-top" id="navbar">
+  <div class="w3-bar w3-white w3-padding w3-card" style="letter-spacing:1pt;">
     <a href="#home" class="w3-bar-item w3-button w3-xlarge">The One Dollar Org</a>
     <!-- Right-sided navbar links. Hide them on small screens -->
     <div class="w3-right w3-hide-small">
@@ -29,30 +36,18 @@ h1, h2, h3, h4, h5, h6 {
 </div>
 
 <!-- Header -->
-<header class="w3-display-container w3-content w3-wide" id="home">
- <img class="w3-image" src="give_wide.jpg" alt="Hamburger Catering" width="1600" height="800">
-  <div class="w3-display-bottomleft w3-padding-large w3-opacity">
-    <div class="w3-white">
-      <div class="w3-text-black">
-    <h3 class="w3-center">&nbsp;&nbsp;Give a helping hand to those who need it&nbsp;&nbsp</h3>
-  </div></div>
-  </div>
+<header id="home">
+ <img class="w3-image" src="give_wide_ss.png" alt="Give Image" style="width:100%; margin-top:40pt">
 </header>
 
 <!-- Page content -->
 <div class="w3-content" style="max-width:1100px">
-
-  <!-- About Section -->
-  <div class="w3-row w3-padding-64" id="home">
-    <div class="w3-col m6 w3-padding-large w3-hide-small">
-    </div>
-  <hr>
   
   <!-- About Section -->
-  <div class="w3-row w3-padding-64" id="about">
+  <div class="w3-row w3-padding-10" id="about">
       <div class="w3-col l6 w3-padding-large">
-        <h1 class="w3-center">Why?</h1><br>
-        <h4>1$ = simple, easy and enough</h4>
+        <p class="w3-center w3-center-align w3-xxlarge">Why?</p>
+        <h4>$1 = simple, easy and enough</h4>
         <p class="w3-text-grey">Be a part of helping the world be a better place with just one dollar every month.</p><br>
       
         <h4>No reminders, no decisions</h4>
@@ -65,21 +60,21 @@ h1, h2, h3, h4, h5, h6 {
       </div>
       
       <div class="w3-col l6 w3-padding-large">
-          <h1 class="w3-center">How?</h1><br>
-          <h4>1. One dollar every month.</h4>
+          <p class="w3-center w3-center-align w3-xxlarge">How?</p>
+          <!--<h1 class="w3-center">How?</h1><br>-->
+          <h4>One dollar every month.</h4>
           <p class="w3-text-grey">Credit, debit, paypal, however you can!</p><br>
         
-          <h4>2. Feel good about your decision</h4>
+          <h4>Feel good about your decision</h4>
           <p class="w3-text-grey">Great job! You have committed yourself to making the world a better place.</p><br>
         
-          <h4>3. Forget about it (unless you don't want to!)</h4>
+          <h4>Forget about it (unless you don't want to!)</h4>
           <p class="w3-text-grey">We'll email you with fun, data-filled updates if you want them!</p><br>
        <!-- <img src="/w3images/tablesetting.jpg" class="w3-round w3-image w3-opacity-min" alt="Menu" style="width:100%"> -->
       </div>
     </div>
   
     <hr>
-
   <!-- Impact Section -->
   <div class="w3-row w3-padding-64" id="impact">
       <div class="l6 w3-padding-large">
